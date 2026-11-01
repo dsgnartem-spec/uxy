@@ -7,8 +7,8 @@
 <meta name="description" content="Short quizzes on real app screens. Spot the mistake, learn the rule. Start free on iPhone and Android.">
 <meta property="og:title" content="Uxy — Learn UI/UX design by fixing real mistakes">
 <meta property="og:description" content="Short quizzes on real app screens. Start free on iPhone and Android.">
-<meta property="og:image" content="https://dsgnartem-spec.github.io/uxy/icon.png">
-<meta property="og:url" content="https://dsgnartem-spec.github.io/uxy/">
+<meta property="og:image" content="https://uxy.app/icon.png">
+<meta property="og:url" content="https://uxy.app/">
 <meta name="twitter:card" content="summary">
 <meta name="apple-itunes-app" content="app-id=6783110192">
 <meta name="theme-color" content="#F6F6F9">
@@ -81,7 +81,7 @@
   var playIntent = 'intent://details?id=' + PKG + '&referrer=' + encodeURIComponent(ref) +
     '#Intent;scheme=market;package=com.android.vending;S.browser_fallback_url=' + encodeURIComponent(playWeb) + ';end';
   // App Store campaign token (ct) shows up in App Store Connect once a provider token (pt) is added.
-  var appStore = 'https://apps.apple.com/app/id' + APP_ID_IOS + '?ct=' + encodeURIComponent(src);
+  var appStore = 'https://apps.apple.com/app/apple-store/id' + APP_ID_IOS + '?pt=125783231&ct=' + encodeURIComponent(src) + '&mt=8';
 
   var ua = navigator.userAgent || '';
   var isAndroid = /Android/i.test(ua);
